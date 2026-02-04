@@ -1,0 +1,167 @@
+{
+  "page": 34,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков исследуемых штрихов оттиска круглой мастичной печати\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.83574; Протонная плотность = 3.20850\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"№ 11366\",\n        \"crystallinity_index\": 0.83574,\n        \"proton_density\": 3.20850\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"%\",\n          \"visible_min\": -50,\n          \"visible_max\": 50,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 500,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"11:59:13\",\n      \"raw_lines\": [\n        \"Дата исследования – 24.06.2023\",\n        \"Время релаксации короткой компоненты – 360.69892 мкс\",\n        \"Время релаксации длинной компоненты – 1519.53514 мкс\",\n        \"Амплитуда короткой компоненты – 1.98376 а.u.\",\n        \"Амплитуда длинной компоненты – 12.23742 а.u.\",\n        \"Индекс кристалличности – 0.83474\",\n        \"Протонная плотность – 3.23985\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 360.69892,\n        \"relaxation_time_long_component_mks\": 1519.53514,\n        \"amplitude_short_component_au\": 1.98376,\n        \"amplitude_long_component_au\": 12.23742,\n        \"calculated_crystallinity_index\": 0.83474,\n        \"calculated_proton_density\": 3.23985\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2032.2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№66\",\n      \"full_text\": \"Иллюстрация №66. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон» в предоставленном на исследование Объекте №6 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок\",\n        \"source_item\": \"ООО «Агро-Индустриальная Корпорация «Волго-Дон»\",\n        \"investigation_object\": \"Объект №6\",\n        \"condition\": \"первый прокол\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79390; Протонная плотность = 4.29520\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"№ 11366\",\n        \"crystallinity_index\": 0.79390,\n        \"proton_density\": 4.29520\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"%\",\n          \"visible_min\": -25,\n          \"visible_max\": 75,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 500,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"12:00:08\",\n      \"raw_lines\": [\n        \"Дата исследования – 24.06.2023\",\n        \"Время релаксации короткой компоненты – 370.25589 мкс\",\n        \"Время релаксации длинной компоненты – 1459.69872 мкс\",\n        \"Амплитуда короткой компоненты – 2.18373 а.u.\",\n        \"Амплитуда длинной компоненты – 10.92467 а.u.\",\n        \"Индекс кристалличности – 0.79372\",\n        \"Протонная плотность – 4.29250\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 370.25589,\n        \"relaxation_time_long_component_mks\": 1459.69872,\n        \"amplitude_short_component_au\": 2.18373,\n        \"amplitude_long_component_au\": 10.92467,\n        \"calculated_crystallinity_index\": 0.79372,\n        \"calculated_proton_density\": 4.29250\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2032.2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№67\",\n      \"full_text\": \"Иллюстрация №67. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №7 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок\",\n        \"source_item\": \"ПАО «Московский Индустриальный банк»\",\n        \"investigation_object\": \"Объект №7\",\n        \"condition\": \"первый прокол\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков исследуемых штрихов оттиска круглой мастичной печати"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.83574; Протонная плотность = 3.20850",
+        "structured_metrics": {
+          "sample_reference": "№ 11366",
+          "crystallinity_index": 0.83574,
+          "proton_density": 3.2085
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "%",
+            "visible_min": -50,
+            "visible_max": 50,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 500,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "11:59:13",
+        "raw_lines": [
+          "Дата исследования – 24.06.2023",
+          "Время релаксации короткой компоненты – 360.69892 мкс",
+          "Время релаксации длинной компоненты – 1519.53514 мкс",
+          "Амплитуда короткой компоненты – 1.98376 а.u.",
+          "Амплитуда длинной компоненты – 12.23742 а.u.",
+          "Индекс кристалличности – 0.83474",
+          "Протонная плотность – 3.23985"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 360.69892,
+          "relaxation_time_long_component_mks": 1519.53514,
+          "amplitude_short_component_au": 1.98376,
+          "amplitude_long_component_au": 12.23742,
+          "calculated_crystallinity_index": 0.83474,
+          "calculated_proton_density": 3.23985
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2032.2094"
+      },
+      "caption_data": {
+        "illustration_number": "№66",
+        "full_text": "Иллюстрация №66. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон» в предоставленном на исследование Объекте №6 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок",
+          "source_item": "ООО «Агро-Индустриальная Корпорация «Волго-Дон»",
+          "investigation_object": "Объект №6",
+          "condition": "первый прокол"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79390; Протонная плотность = 4.29520",
+        "structured_metrics": {
+          "sample_reference": "№ 11366",
+          "crystallinity_index": 0.7939,
+          "proton_density": 4.2952
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "%",
+            "visible_min": -25,
+            "visible_max": 75,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 500,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "12:00:08",
+        "raw_lines": [
+          "Дата исследования – 24.06.2023",
+          "Время релаксации короткой компоненты – 370.25589 мкс",
+          "Время релаксации длинной компоненты – 1459.69872 мкс",
+          "Амплитуда короткой компоненты – 2.18373 а.u.",
+          "Амплитуда длинной компоненты – 10.92467 а.u.",
+          "Индекс кристалличности – 0.79372",
+          "Протонная плотность – 4.29250"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 370.25589,
+          "relaxation_time_long_component_mks": 1459.69872,
+          "amplitude_short_component_au": 2.18373,
+          "amplitude_long_component_au": 10.92467,
+          "calculated_crystallinity_index": 0.79372,
+          "calculated_proton_density": 4.2925
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2032.2094"
+      },
+      "caption_data": {
+        "illustration_number": "№67",
+        "full_text": "Иллюстрация №67. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №7 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок",
+          "source_item": "ПАО «Московский Индустриальный банк»",
+          "investigation_object": "Объект №7",
+          "condition": "первый прокол"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1515,
+    "total_tokens": 3540,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

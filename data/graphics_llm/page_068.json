@@ -1,0 +1,116 @@
+{
+  "page": 68,
+  "content": "```json\n[\n  {\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.73891; Протонная плотность = 0.17769\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.73891,\n        \"proton_density\": 0.17769\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -40,\n          \"visible_max\": 60,\n          \"step_interval\": 10\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 240,\n          \"step_interval\": 20\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 50,\n        \"blue\": 30,\n        \"green\": 40\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№135\",\n      \"full_text\": \"Иллюстрация №135. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №2 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»\",\n        \"investigation_object\": \"Объект №2\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71730; Протонная плотность = 0.75580\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.71730,\n        \"proton_density\": 0.75580\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -20,\n          \"visible_max\": 20,\n          \"step_interval\": 5\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 15,\n          \"visible_max\": 165,\n          \"step_interval\": 15\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 19,\n        \"blue\": 12,\n        \"green\": 14\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№136\",\n      \"full_text\": \"Иллюстрация №136. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон» в предоставленном на исследование Объекте №2 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"оттиск круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон»\",\n        \"investigation_object\": \"Объект №2\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.73891; Протонная плотность = 0.17769",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.73891,
+          "proton_density": 0.17769
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -40,
+            "visible_max": 60,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 240,
+            "step_interval": 20
+          }
+        },
+        "y_metrics_max": {
+          "red": 50,
+          "blue": 30,
+          "green": 40
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№135",
+        "full_text": "Иллюстрация №135. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №2 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»",
+          "investigation_object": "Объект №2",
+          "condition": "при третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71730; Протонная плотность = 0.75580",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.7173,
+          "proton_density": 0.7558
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -20,
+            "visible_max": 20,
+            "step_interval": 5
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 15,
+            "visible_max": 165,
+            "step_interval": 15
+          }
+        },
+        "y_metrics_max": {
+          "red": 19,
+          "blue": 12,
+          "green": 14
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№136",
+        "full_text": "Иллюстрация №136. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон» в предоставленном на исследование Объекте №2 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ООО «Агро-Индустриальная Корпорация «Волго-Дон»",
+          "investigation_object": "Объект №2",
+          "condition": "при третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 890,
+    "total_tokens": 2945,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "page": 56,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №3. Заключение NP 11366: Изображения графиков ЯМР участков\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.79495; Протонная плотность = 3.36063\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.79495,\n        \"proton_density\": 3.36063\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, a.u.\",\n          \"visible_min\": 0,\n          \"visible_max\": 20,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 250,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"09:28:58\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2023\",\n        \"Время релаксации короткой компоненты = 395.20278 мкс\",\n        \"Время релаксации длинной компоненты = 31.18405 мкс\",\n        \"Амплитуда короткой компоненты = 14.53162 a.u.\",\n        \"Амплитуда длинной компоненты = 7.21945 a.u.\",\n        \"Индекс кристалличности = 0.78094\",\n        \"Протонная плотность = 3.42706\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2023\",\n        \"relaxation_time_short_component_mks\": 395.20278,\n        \"relaxation_time_long_component_mks\": 31.18405,\n        \"amplitude_short_component_au\": 14.53162,\n        \"amplitude_long_component_au\": 7.21945,\n        \"calculated_crystallinity_index\": 0.78094,\n        \"calculated_proton_density\": 3.42706\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"Чтение буфера A 139.5 0.7823 2032 2094\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"139.5 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"Иллюстрация №110\",\n      \"full_text\": \"Иллюстрация одного из ЯМР участков исследуемых аморфных штрихов ручкописной подписи от имени Денин В.Н. в предоставленном на исследование Объекте №8 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрихов\",\n        \"source_item\": \"Денин В.Н.\",\n        \"investigation_object\": \"Объекта №8\",\n        \"condition\": \"третьем проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.79565; Протонная плотность = 2.81763\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.79565,\n        \"proton_density\": 2.81763\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, a.u.\",\n          \"visible_min\": 0,\n          \"visible_max\": 20,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 250,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"09:34:15\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2023\",\n        \"Время релаксации короткой компоненты = 390.27293 мкс\",\n        \"Время релаксации длинной компоненты = 30.09209 мкс\",\n        \"Амплитуда короткой компоненты = 12.6613 a.u.\",\n        \"Амплитуда длинной компоненты = 5.04903 a.u.\",\n        \"Индекс кристалличности = 0.79485\",\n        \"Протонная плотность = 2.86451\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2023\",\n        \"relaxation_time_short_component_mks\": 390.27293,\n        \"relaxation_time_long_component_mks\": 30.09209,\n        \"amplitude_short_component_au\": 12.6613,\n        \"amplitude_long_component_au\": 5.04903,\n        \"calculated_crystallinity_index\": 0.79485,\n        \"calculated_proton_density\": 2.86451\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"Чтение буфера A 139.5 0.7823 2032 2094\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"139.5 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"Иллюстрация №111\",\n      \"full_text\": \"Иллюстрация одного из ЯМР участков исследуемых аморфных штрихов ручкописной подписи от имени Тисленко Т.Б. в предоставленном на исследование Объекте №8 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрихов\",\n        \"source_item\": \"Тисленко Т.Б.\",\n        \"investigation_object\": \"Объекта №8\",\n        \"condition\": \"третьем проколе\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №3. Заключение NP 11366: Изображения графиков ЯМР участков"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.79495; Протонная плотность = 3.36063",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.79495,
+          "proton_density": 3.36063
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, a.u.",
+            "visible_min": 0,
+            "visible_max": 20,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "09:28:58",
+        "raw_lines": [
+          "Дата исследования - 19.07.2023",
+          "Время релаксации короткой компоненты = 395.20278 мкс",
+          "Время релаксации длинной компоненты = 31.18405 мкс",
+          "Амплитуда короткой компоненты = 14.53162 a.u.",
+          "Амплитуда длинной компоненты = 7.21945 a.u.",
+          "Индекс кристалличности = 0.78094",
+          "Протонная плотность = 3.42706"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2023",
+          "relaxation_time_short_component_mks": 395.20278,
+          "relaxation_time_long_component_mks": 31.18405,
+          "amplitude_short_component_au": 14.53162,
+          "amplitude_long_component_au": 7.21945,
+          "calculated_crystallinity_index": 0.78094,
+          "calculated_proton_density": 3.42706
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "Чтение буфера A 139.5 0.7823 2032 2094",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "139.5 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "Иллюстрация №110",
+        "full_text": "Иллюстрация одного из ЯМР участков исследуемых аморфных штрихов ручкописной подписи от имени Денин В.Н. в предоставленном на исследование Объекте №8 при третьем проколе.",
+        "structured_details": {
+          "object_type": "штрихов",
+          "source_item": "Денин В.Н.",
+          "investigation_object": "Объекта №8",
+          "condition": "третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.79565; Протонная плотность = 2.81763",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.79565,
+          "proton_density": 2.81763
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, a.u.",
+            "visible_min": 0,
+            "visible_max": 20,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "09:34:15",
+        "raw_lines": [
+          "Дата исследования - 19.07.2023",
+          "Время релаксации короткой компоненты = 390.27293 мкс",
+          "Время релаксации длинной компоненты = 30.09209 мкс",
+          "Амплитуда короткой компоненты = 12.6613 a.u.",
+          "Амплитуда длинной компоненты = 5.04903 a.u.",
+          "Индекс кристалличности = 0.79485",
+          "Протонная плотность = 2.86451"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2023",
+          "relaxation_time_short_component_mks": 390.27293,
+          "relaxation_time_long_component_mks": 30.09209,
+          "amplitude_short_component_au": 12.6613,
+          "amplitude_long_component_au": 5.04903,
+          "calculated_crystallinity_index": 0.79485,
+          "calculated_proton_density": 2.86451
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "Чтение буфера A 139.5 0.7823 2032 2094",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "139.5 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "Иллюстрация №111",
+        "full_text": "Иллюстрация одного из ЯМР участков исследуемых аморфных штрихов ручкописной подписи от имени Тисленко Т.Б. в предоставленном на исследование Объекте №8 при третьем проколе.",
+        "structured_details": {
+          "object_type": "штрихов",
+          "source_item": "Тисленко Т.Б.",
+          "investigation_object": "Объекта №8",
+          "condition": "третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1562,
+    "total_tokens": 3587,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

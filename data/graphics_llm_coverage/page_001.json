@@ -1,0 +1,100 @@
+{
+  "page": 1,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков исследуемых реквизитов в Объектах №1-12.\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец №1 к Заключению №11366; Индекс кристалличности = 0.79092; Протонная плотность = 2.12182\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец №1 к Заключению №11366\",\n        \"crystallinity_index\": 0.79092,\n        \"proton_density\": 2.12182\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \"Интенсивность, %\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"Время, мкс\", \"visible_min\": 0, \"visible_max\": 260, \"step_interval\": 20 }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"07:26:07\",\n      \"raw_lines\": [\n        \"07:26:07: Дата исследования - 24.06.2023\",\n        \"Время релаксации короткой компоненты - 246.78087 мкc\",\n        \"Время релаксации длинной компоненты - 9.32282 мкc\",\n        \"Амплитуда короткой компоненты - 1.49545 a.u.\",\n        \"Амплитуда длинной компоненты - 2.10895 a.u.\",\n        \"Индекс кристалличности = 0.79092\",\n        \"Протонная плотность = 2.12182\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 246.78087,\n        \"relaxation_time_long_component_mks\": 9.32282,\n        \"amplitude_short_component_au\": 1.49545,\n        \"amplitude_long_component_au\": 2.10895,\n        \"calculated_crystallinity_index\": 0.79092,\n        \"calculated_proton_density\": 2.12182\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2032.2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№1\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Губашева С.С. в предоставленном на исследование Объекте №1 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок\",\n        \"source_item\": \"штрихи рукописной подписи от имени Губашева С.С.\",\n        \"investigation_object\": \"Объект №1\",\n        \"condition\": \"первый прокол\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков исследуемых реквизитов в Объектах №1-12."
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец №1 к Заключению №11366; Индекс кристалличности = 0.79092; Протонная плотность = 2.12182",
+        "structured_metrics": {
+          "sample_reference": "Образец №1 к Заключению №11366",
+          "crystallinity_index": 0.79092,
+          "proton_density": 2.12182
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 260,
+            "step_interval": 20
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "07:26:07",
+        "raw_lines": [
+          "07:26:07: Дата исследования - 24.06.2023",
+          "Время релаксации короткой компоненты - 246.78087 мкc",
+          "Время релаксации длинной компоненты - 9.32282 мкc",
+          "Амплитуда короткой компоненты - 1.49545 a.u.",
+          "Амплитуда длинной компоненты - 2.10895 a.u.",
+          "Индекс кристалличности = 0.79092",
+          "Протонная плотность = 2.12182"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 264.78167,
+          "relaxation_time_long_component_mks": 34.52022,
+          "amplitude_short_component_au": 2.49068,
+          "amplitude_long_component_au": 1.45885,
+          "calculated_crystallinity_index": 0.79092,
+          "calculated_proton_density": 2.12182
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2032.2094"
+      },
+      "caption_data": {
+        "illustration_number": "№1",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Губашева С.С. в предоставленном на исследование Объекте №1 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок",
+          "source_item": "штрихи рукописной подписи от имени Губашева С.С.",
+          "investigation_object": "Объект №1",
+          "condition": "первый прокол"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 776,
+    "total_tokens": 2801,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

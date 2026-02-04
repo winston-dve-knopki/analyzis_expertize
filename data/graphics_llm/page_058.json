@@ -1,0 +1,116 @@
+{
+  "page": 58,
+  "content": "```json\n[\n  {\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70307; Протонная плотность = 0.67690\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.70307,\n        \"proton_density\": 0.67690\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -50,\n          \"visible_max\": 40,\n          \"step_interval\": 10\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 250,\n          \"step_interval\": 10\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 28,\n        \"blue\": 18,\n        \"green\": 38\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№115\",\n      \"full_text\": \"Иллюстрация №115. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Тисленко Т.Б. в предоставленном на исследование Объекте №9 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"рукописной подписи от имени Тисленко Т.Б.\",\n        \"investigation_object\": \"Объект №9\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70307; Протонная плотность = 0.10223\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n        \"crystallinity_index\": 0.70307,\n        \"proton_density\": 0.10223\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -50,\n          \"visible_max\": 40,\n          \"step_interval\": 10\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 115,\n          \"step_interval\": 5\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 22,\n        \"blue\": 12,\n        \"green\": 38\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№116\",\n      \"full_text\": \"Иллюстрация №116. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филипенко И.Н. в предоставленном на исследование Объекте №9 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"рукописной подписи от имени Филипенко И.Н.\",\n        \"investigation_object\": \"Объект №9\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70307; Протонная плотность = 0.67690",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.70307,
+          "proton_density": 0.6769
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -50,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": 10
+          }
+        },
+        "y_metrics_max": {
+          "red": 28,
+          "blue": 18,
+          "green": 38
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№115",
+        "full_text": "Иллюстрация №115. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Тисленко Т.Б. в предоставленном на исследование Объекте №9 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Тисленко Т.Б.",
+          "investigation_object": "Объект №9",
+          "condition": "при третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70307; Протонная плотность = 0.10223",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.70307,
+          "proton_density": 0.10223
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -50,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 115,
+            "step_interval": 5
+          }
+        },
+        "y_metrics_max": {
+          "red": 22,
+          "blue": 12,
+          "green": 38
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№116",
+        "full_text": "Иллюстрация №116. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филипенко И.Н. в предоставленном на исследование Объекте №9 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Филипенко И.Н.",
+          "investigation_object": "Объект №9",
+          "condition": "при третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 846,
+    "total_tokens": 2901,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

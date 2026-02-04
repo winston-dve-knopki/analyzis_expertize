@@ -1,0 +1,175 @@
+{
+  "page": 10,
+  "content": "[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков…\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366: Индекс кристалличности = 0.80642; Протонная плотность = 3.51208\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"№ 11366\",\n        \"crystallinity_index\": 0.80642,\n        \"proton_density\": 3.51208\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \"Интенсивность, а.е.\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"Время, мкс\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"08:36:38\",\n      \"raw_lines\": [\n        \"Дата исследования — 24.06.2023\",\n        \"Время релаксации короткой компоненты = 192.59631 мкс\",\n        \"Время релаксации длинной компоненты = 1.98592 мс\",\n        \"Амплитуда короткой компоненты = 17.96647 а.е.\",\n        \"Амплитуда длинной компоненты = 0.996312 а.е.\",\n        \"Индекс кристалличности = 0.80024\",\n        \"Протонная плотность = 3.51208\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 192.59631,\n        \"relaxation_time_long_component_mks\": 1985.92,\n        \"amplitude_short_component_au\": 17.96647,\n        \"amplitude_long_component_au\": 0.996312,\n        \"calculated_crystallinity_index\": 0.80024,\n        \"calculated_proton_density\": 3.51208\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№18\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филиппенко И.Н. в предоставленном на исследование Объекте №4 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участков\",\n        \"source_item\": \"Филиппенко И.Н.\",\n        \"investigation_object\": \"Объект №4\",\n        \"condition\": \"первом проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366: Индекс кристалличности = 0.79673; Протонная плотность = 2.04205\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"№ 11366\",\n        \"crystallinity_index\": 0.79673,\n        \"proton_density\": 2.04205\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \"Интенсивность, а.е.\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"Время, мкс\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"08:01:42\",\n      \"raw_lines\": [\n        \"Дата исследования — 24.06.2023\",\n        \"Время релаксации короткой компоненты = 97.08099 мкс\",\n        \"Время релаксации длинной компоненты = 7.03655 мс\",\n        \"Амплитуда короткой компоненты = 17.96417 а.е.\",\n        \"Амплитуда длинной компоненты = 2.02677 а.е.\",\n        \"Индекс кристалличности = 0.79673\",\n        \"Протонная плотность = 2.04205\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 97.08099,\n        \"relaxation_time_long_component_mks\": 7036.55,\n        \"amplitude_short_component_au\": 17.96417,\n        \"amplitude_long_component_au\": 2.02677,\n        \"calculated_crystallinity_index\": 0.79673,\n        \"calculated_proton_density\": 2.04205\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№19\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Галактионова А.А. в предоставленном на исследование Объекте №4 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участков\",\n        \"source_item\": \"Галактионова А.А.\",\n        \"investigation_object\": \"Объект №4\",\n        \"condition\": \"первом проколе\"\n      }\n    }\n  }\n]",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков…"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366: Индекс кристалличности = 0.80642; Протонная плотность = 3.51208",
+        "structured_metrics": {
+          "sample_reference": "№ 11366",
+          "crystallinity_index": 0.80642,
+          "proton_density": 3.51208
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, а.е.",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "08:36:38",
+        "raw_lines": [
+          "Дата исследования — 24.06.2023",
+          "Время релаксации короткой компоненты = 192.59631 мкс",
+          "Время релаксации длинной компоненты = 1.98592 мс",
+          "Амплитуда короткой компоненты = 17.96647 а.е.",
+          "Амплитуда длинной компоненты = 0.996312 а.е.",
+          "Индекс кристалличности = 0.80024",
+          "Протонная плотность = 3.51208"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 192.59631,
+          "relaxation_time_long_component_mks": 1985.92,
+          "amplitude_short_component_au": 17.96647,
+          "amplitude_long_component_au": 0.996312,
+          "calculated_crystallinity_index": 0.80024,
+          "calculated_proton_density": 3.51208
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "№18",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филиппенко И.Н. в предоставленном на исследование Объекте №4 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участков",
+          "source_item": "Филиппенко И.Н.",
+          "investigation_object": "Объект №4",
+          "condition": "первом проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366: Индекс кристалличности = 0.79673; Протонная плотность = 2.04205",
+        "structured_metrics": {
+          "sample_reference": "№ 11366",
+          "crystallinity_index": 0.79673,
+          "proton_density": 2.04205
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, а.е.",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "08:01:42",
+        "raw_lines": [
+          "Дата исследования — 24.06.2023",
+          "Время релаксации короткой компоненты = 97.08099 мкс",
+          "Время релаксации длинной компоненты = 7.03655 мс",
+          "Амплитуда короткой компоненты = 17.96417 а.е.",
+          "Амплитуда длинной компоненты = 2.02677 а.е.",
+          "Индекс кристалличности = 0.79673",
+          "Протонная плотность = 2.04205"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 97.08099,
+          "relaxation_time_long_component_mks": 7036.55,
+          "amplitude_short_component_au": 17.96417,
+          "amplitude_long_component_au": 2.02677,
+          "calculated_crystallinity_index": 0.79673,
+          "calculated_proton_density": 2.04205
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "№19",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Галактионова А.А. в предоставленном на исследование Объекте №4 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участков",
+          "source_item": "Галактионова А.А.",
+          "investigation_object": "Объект №4",
+          "condition": "первом проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1434,
+    "total_tokens": 3459,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

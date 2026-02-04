@@ -1,0 +1,99 @@
+{
+  "page": 79,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №3. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №12 при третьем проколе.\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец №3 к Заключению №11366; Индекс кристалличности = 0.76128; Протонная плотность = 4.48718\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Заключению №11366\",\n        \"crystallinity_index\": 0.76128,\n        \"proton_density\": 4.48718\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \"Интенсивность, а. е.\", \"visible_min\": null, \"visible_max\": null, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"время, мкс\", \"visible_min\": 0, \"visible_max\": 175, \"step_interval\": null }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": [\"Результаты графика\", \"Код\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"12:35:48\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2023\",\n        \"Время релаксации короткой компоненты = 232.79581 мкс\",\n        \"Время релаксации длинной компоненты = 1275.8 мкс\",\n        \"Амплитуда короткой компоненты = 0.75428 а. е.\",\n        \"Амплитуда длинной компоненты = 3.4439 а. е.\",\n        \"Индекс кристалличности = 0.76128\",\n        \"Протонная плотность = 4.48718\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2023\",\n        \"relaxation_time_short_component_mks\": 232.79581,\n        \"relaxation_time_long_component_mks\": 1275.8,\n        \"amplitude_short_component_au\": 0.75428,\n        \"amplitude_long_component_au\": 3.4439,\n        \"calculated_crystallinity_index\": 0.76128,\n        \"calculated_proton_density\": 4.48718\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 0.7823 2082 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№156\",\n      \"full_text\": \"Иллюстрация №156. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №12 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок\",\n        \"source_item\": \"ООО «Ростовская нива»\",\n        \"investigation_object\": \"Объекте №12\",\n        \"condition\": \"третий прокол\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №3. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №12 при третьем проколе."
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец №3 к Заключению №11366; Индекс кристалличности = 0.76128; Протонная плотность = 4.48718",
+        "structured_metrics": {
+          "sample_reference": "Заключению №11366",
+          "crystallinity_index": 0.76128,
+          "proton_density": 4.48718
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, а. е.",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "время, мкс",
+            "visible_min": 0,
+            "visible_max": 175,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "Результаты графика",
+          "Код"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "12:35:48",
+        "raw_lines": [
+          "Дата исследования - 19.07.2023",
+          "Время релаксации короткой компоненты = 232.79581 мкс",
+          "Время релаксации длинной компоненты = 1275.8 мкс",
+          "Амплитуда короткой компоненты = 0.75428 а. е.",
+          "Амплитуда длинной компоненты = 3.4439 а. е.",
+          "Индекс кристалличности = 0.76128",
+          "Протонная плотность = 4.48718"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2023",
+          "relaxation_time_short_component_mks": 232.79581,
+          "relaxation_time_long_component_mks": 1275.8,
+          "amplitude_short_component_au": 0.75428,
+          "amplitude_long_component_au": 3.4439,
+          "calculated_crystallinity_index": 0.76128,
+          "calculated_proton_density": 4.48718
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 0.7823 2082 2094"
+      },
+      "caption_data": {
+        "illustration_number": "№156",
+        "full_text": "Иллюстрация №156. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №12 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок",
+          "source_item": "ООО «Ростовская нива»",
+          "investigation_object": "Объекте №12",
+          "condition": "третий прокол"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 793,
+    "total_tokens": 2818,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

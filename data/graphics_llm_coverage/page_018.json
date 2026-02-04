@@ -1,0 +1,173 @@
+{
+  "page": 18,
+  "content": "[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков…\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79753; Протонная плотность = 3.91025\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"1\",\n        \"crystallinity_index\": 0.79753,\n        \"proton_density\": 3.91025\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\"label\": \"Интенсивность, a.u.\", \"visible_min\": 0, \"visible_max\": 5, \"step_interval\": null},\n        \"x_axis\": {\"label\": \"Время, мкс\", \"visible_min\": 0, \"visible_max\": 250, \"step_interval\": null}\n      },\n      \"y_metrics_max\": {\"red\": null, \"blue\": null, \"green\": null},\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"09:50:58\",\n      \"raw_lines\": [\n        \"09:50:58  Дата исследования:       - 24.06.2023\",\n        \"09:50:58  Время релаксации короткой компоненты - 95.36540 мкс\",\n        \"09:50:58  Время релаксации длинной компоненты - 367.58156 мкс\",\n        \"09:50:58  Амплитуда короткой компоненты - 5.11236 a.u.\",\n        \"09:50:58  Амплитуда длинной компоненты - 2.91821 a.u.\",\n        \"09:50:58  Протонная плотность =  3.91025\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 95.36540,\n        \"relaxation_time_long_component_mks\": 367.58156,\n        \"amplitude_short_component_au\": 5.11236,\n        \"amplitude_long_component_au\": 2.91821,\n        \"calculated_crystallinity_index\": null,\n        \"calculated_proton_density\": 3.91025\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"1% 0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"139.5 0.7823 2032.2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"34\",\n      \"full_text\": \"Иллюстрация №34. Изображение одного из ЯМР участков исследуемых штрихов ручкописной подписи от имени Филиппенко И.Н. в предоставленном на исследование Объекте №8 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрих\",\n        \"source_item\": \"Филиппенко И.Н.\",\n        \"investigation_object\": \"Объект №8\",\n        \"condition\": \"первый прокол\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79423; Протонная плотность = 3.69180\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"1\",\n        \"crystallinity_index\": 0.79423,\n        \"proton_density\": 3.69180\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\"label\": \"Интенсивность, a.u.\", \"visible_min\": 0, \"visible_max\": 5, \"step_interval\": null},\n        \"x_axis\": {\"label\": \"Время, мкс\", \"visible_min\": 0, \"visible_max\": 250, \"step_interval\": null}\n      },\n      \"y_metrics_max\": {\"red\": null, \"blue\": null, \"green\": null},\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"09:51:33\",\n      \"raw_lines\": [\n        \"09:51:33  Дата исследования:       - 24.06.2023\",\n        \"09:51:33  Время релаксации короткой компоненты - 83.65589 мкс\",\n        \"09:51:33  Время релаксации длинной компоненты - 365.13426 мкс\",\n        \"09:51:33  Амплитуда короткой компоненты - 4.91578 a.u.\",\n        \"09:51:33  Амплитуда длинной компоненты - 2.82051 a.u.\",\n        \"09:51:33  Протонная плотность =  3.69180\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"24.06.2023\",\n        \"relaxation_time_short_component_mks\": 83.65589,\n        \"relaxation_time_long_component_mks\": 365.13426,\n        \"amplitude_short_component_au\": 4.91578,\n        \"amplitude_long_component_au\": 2.82051,\n        \"calculated_crystallinity_index\": null,\n        \"calculated_proton_density\": 3.69180\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"1% 0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера А\",\n      \"numeric_values\": \"139.5 0.7823 2032.2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"35\",\n      \"full_text\": \"Иллюстрация №35. Изображение одного из ЯМР участков исследуемых штрихов ручкописной подписи от имени Шмульт Т.А. в предоставленном на исследование Объекте №8 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрих\",\n        \"source_item\": \"Шмульт Т.А.\",\n        \"investigation_object\": \"Объект №8\",\n        \"condition\": \"первый прокол\"\n      }\n    }\n  }\n]",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков…"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79753; Протонная плотность = 3.91025",
+        "structured_metrics": {
+          "sample_reference": "1",
+          "crystallinity_index": 0.79753,
+          "proton_density": 3.91025
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, a.u.",
+            "visible_min": 0,
+            "visible_max": 5,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "09:50:58",
+        "raw_lines": [
+          "09:50:58  Дата исследования:       - 24.06.2023",
+          "09:50:58  Время релаксации короткой компоненты - 95.36540 мкс",
+          "09:50:58  Время релаксации длинной компоненты - 367.58156 мкс",
+          "09:50:58  Амплитуда короткой компоненты - 5.11236 a.u.",
+          "09:50:58  Амплитуда длинной компоненты - 2.91821 a.u.",
+          "09:50:58  Протонная плотность =  3.91025"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 95.3654,
+          "relaxation_time_long_component_mks": 367.58156,
+          "amplitude_short_component_au": 5.11236,
+          "amplitude_long_component_au": 2.91821,
+          "calculated_crystallinity_index": null,
+          "calculated_proton_density": 3.91025
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "1% 0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "139.5 0.7823 2032.2094"
+      },
+      "caption_data": {
+        "illustration_number": "34",
+        "full_text": "Иллюстрация №34. Изображение одного из ЯМР участков исследуемых штрихов ручкописной подписи от имени Филиппенко И.Н. в предоставленном на исследование Объекте №8 при первом проколе.",
+        "structured_details": {
+          "object_type": "штрих",
+          "source_item": "Филиппенко И.Н.",
+          "investigation_object": "Объект №8",
+          "condition": "первый прокол"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.79423; Протонная плотность = 3.69180",
+        "structured_metrics": {
+          "sample_reference": "1",
+          "crystallinity_index": 0.79423,
+          "proton_density": 3.6918
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, a.u.",
+            "visible_min": 0,
+            "visible_max": 5,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "log_panel_data": {
+        "timestamp": "09:51:33",
+        "raw_lines": [
+          "09:51:33  Дата исследования:       - 24.06.2023",
+          "09:51:33  Время релаксации короткой компоненты - 83.65589 мкс",
+          "09:51:33  Время релаксации длинной компоненты - 365.13426 мкс",
+          "09:51:33  Амплитуда короткой компоненты - 4.91578 a.u.",
+          "09:51:33  Амплитуда длинной компоненты - 2.82051 a.u.",
+          "09:51:33  Протонная плотность =  3.69180"
+        ],
+        "structured_log_metrics": {
+          "research_date": "24.06.2023",
+          "relaxation_time_short_component_mks": 83.65589,
+          "relaxation_time_long_component_mks": 365.13426,
+          "amplitude_short_component_au": 4.91578,
+          "amplitude_long_component_au": 2.82051,
+          "calculated_crystallinity_index": null,
+          "calculated_proton_density": 3.6918
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "1% 0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера А",
+        "numeric_values": "139.5 0.7823 2032.2094"
+      },
+      "caption_data": {
+        "illustration_number": "35",
+        "full_text": "Иллюстрация №35. Изображение одного из ЯМР участков исследуемых штрихов ручкописной подписи от имени Шмульт Т.А. в предоставленном на исследование Объекте №8 при первом проколе.",
+        "structured_details": {
+          "object_type": "штрих",
+          "source_item": "Шмульт Т.А.",
+          "investigation_object": "Объект №8",
+          "condition": "первый прокол"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1480,
+    "total_tokens": 3505,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

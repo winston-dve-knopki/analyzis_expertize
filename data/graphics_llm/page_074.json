@@ -1,0 +1,108 @@
+{
+  "page": 74,
+  "content": "[\n    {\n        \"graph_id\": 1,\n        \"header_data\": {\n            \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71458; Протонная плотность = 0.57248\",\n            \"structured_metrics\": {\n                \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n                \"crystallinity_index\": 0.71458,\n                \"proton_density\": 0.57248\n            }\n        },\n        \"graph_statistics\": {\n            \"axes\": {\n                \"y_axis\": {\n                    \"label\": \"Интенсивность, %\",\n                    \"visible_min\": -40,\n                    \"visible_max\": 40,\n                    \"step_interval\": 10\n                },\n                \"x_axis\": {\n                    \"label\": \"Время, мкс\",\n                    \"visible_min\": 0,\n                    \"visible_max\": 125,\n                    \"step_interval\": 5\n                }\n            },\n            \"y_metrics_max\": {\n                \"red\": 40,\n                \"blue\": null,\n                \"green\": 40\n            },\n            \"visible_tabs\": []\n        },\n        \"caption_data\": {\n            \"illustration_number\": \"№147\",\n            \"full_text\": \"Иллюстрация №147. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №8 при третьем проколе.\",\n            \"structured_details\": {\n                \"object_type\": \"ЯМР участок исследуемых штрихов\",\n                \"source_item\": \"оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»\",\n                \"investigation_object\": \"Объект №8\",\n                \"condition\": \"при третьем проколе\"\n            }\n        }\n    },\n    {\n        \"graph_id\": 2,\n        \"header_data\": {\n            \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.73518; Протонная плотность = 0.27324\",\n            \"structured_metrics\": {\n                \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n                \"crystallinity_index\": 0.73518,\n                \"proton_density\": 0.27324\n            }\n        },\n        \"graph_statistics\": {\n            \"axes\": {\n                \"y_axis\": {\n                    \"label\": \"Интенсивность, %\",\n                    \"visible_min\": -40,\n                    \"visible_max\": 40,\n                    \"step_interval\": 10\n                },\n                \"x_axis\": {\n                    \"label\": \"Время, мкс\",\n                    \"visible_min\": 0,\n                    \"visible_max\": 240,\n                    \"step_interval\": 15\n                }\n            },\n            \"y_metrics_max\": {\n                \"red\": 24,\n                \"blue\": null,\n                \"green\": 20\n            },\n            \"visible_tabs\": []\n        },\n        \"caption_data\": {\n            \"illustration_number\": \"№148\",\n            \"full_text\": \"Иллюстрация №148. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская ньива» в предоставленном на исследование Объекте №8 при третьем проколе.\",\n            \"structured_details\": {\n                \"object_type\": \"ЯМР участок исследуемых штрихов\",\n                \"source_item\": \"оттиск круглой мастичной печати ООО «Ростовская ньива»\",\n                \"investigation_object\": \"Объект №8\",\n                \"condition\": \"при третьем проколе\"\n            }\n        }\n    }\n]",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71458; Протонная плотность = 0.57248",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.71458,
+          "proton_density": 0.57248
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -40,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 125,
+            "step_interval": 5
+          }
+        },
+        "y_metrics_max": {
+          "red": 40,
+          "blue": null,
+          "green": 40
+        },
+        "visible_tabs": []
+      },
+      "caption_data": {
+        "illustration_number": "№147",
+        "full_text": "Иллюстрация №147. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №8 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»",
+          "investigation_object": "Объект №8",
+          "condition": "при третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.73518; Протонная плотность = 0.27324",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.73518,
+          "proton_density": 0.27324
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -40,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 240,
+            "step_interval": 15
+          }
+        },
+        "y_metrics_max": {
+          "red": 24,
+          "blue": null,
+          "green": 20
+        },
+        "visible_tabs": []
+      },
+      "caption_data": {
+        "illustration_number": "№148",
+        "full_text": "Иллюстрация №148. Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская ньива» в предоставленном на исследование Объекте №8 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ООО «Ростовская ньива»",
+          "investigation_object": "Объект №8",
+          "condition": "при третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 836,
+    "total_tokens": 2891,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

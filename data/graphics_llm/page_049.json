@@ -1,0 +1,116 @@
+{
+  "page": 49,
+  "content": "[\n    {\n        \"graph_id\": 1,\n        \"header_data\": {\n            \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70328; Протонная плотность = 0.22759\",\n            \"structured_metrics\": {\n                \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n                \"crystallinity_index\": 0.70328,\n                \"proton_density\": 0.22759\n            }\n        },\n        \"graph_statistics\": {\n            \"axes\": {\n                \"y_axis\": {\n                    \"label\": \"Интенсивность, %И\",\n                    \"visible_min\": -40,\n                    \"visible_max\": 40,\n                    \"step_interval\": 10\n                },\n                \"x_axis\": {\n                    \"label\": \"Время, мкс\",\n                    \"visible_min\": 0,\n                    \"visible_max\": 250,\n                    \"step_interval\": 20\n                }\n            },\n            \"y_metrics_max\": {\n                \"red\": 35,\n                \"blue\": 25,\n                \"green\": 32\n            },\n            \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n        },\n        \"caption_data\": {\n            \"illustration_number\": \"№97\",\n            \"full_text\": \"Иллюстрация №97. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Галактионова А.А. в предоставленном на исследование Объекте №4 при третьем проколе.\",\n            \"structured_details\": {\n                \"object_type\": \"ЯМР участок исследуемых штрихов\",\n                \"source_item\": \"рукописной подписи от имени Галактионова А.А.\",\n                \"investigation_object\": \"Объекте №4\",\n                \"condition\": \"при третьем проколе\"\n            }\n        }\n    },\n    {\n        \"graph_id\": 2,\n        \"header_data\": {\n            \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71452; Протонная плотность = 0.70370\",\n            \"structured_metrics\": {\n                \"sample_reference\": \"Образец № 3 к Заключению № 11366\",\n                \"crystallinity_index\": 0.71452,\n                \"proton_density\": 0.70370\n            }\n        },\n        \"graph_statistics\": {\n            \"axes\": {\n                \"y_axis\": {\n                    \"label\": \"Интенсивность, %И\",\n                    \"visible_min\": -40,\n                    \"visible_max\": 40,\n                    \"step_interval\": 10\n                },\n                \"x_axis\": {\n                    \"label\": \"Время, мкс\",\n                    \"visible_min\": 0,\n                    \"visible_max\": 300,\n                    \"step_interval\": 20\n                }\n            },\n            \"y_metrics_max\": {\n                \"red\": 37,\n                \"blue\": 30,\n                \"green\": 28\n            },\n            \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n        },\n        \"caption_data\": {\n            \"illustration_number\": \"№98\",\n            \"full_text\": \"Иллюстрация №98. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Губашева С.С. в предоставленном на исследование Объекте №5 при третьем проколе.\",\n            \"structured_details\": {\n                \"object_type\": \"ЯМР участок исследуемых штрихов\",\n                \"source_item\": \"рукописной подписи от имени Губашева С.С.\",\n                \"investigation_object\": \"Объекте №5\",\n                \"condition\": \"при третьем проколе\"\n            }\n        }\n    }\n]",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.70328; Протонная плотность = 0.22759",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.70328,
+          "proton_density": 0.22759
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %И",
+            "visible_min": -40,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 250,
+            "step_interval": 20
+          }
+        },
+        "y_metrics_max": {
+          "red": 35,
+          "blue": 25,
+          "green": 32
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№97",
+        "full_text": "Иллюстрация №97. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Галактионова А.А. в предоставленном на исследование Объекте №4 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Галактионова А.А.",
+          "investigation_object": "Объекте №4",
+          "condition": "при третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.71452; Протонная плотность = 0.70370",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3 к Заключению № 11366",
+          "crystallinity_index": 0.71452,
+          "proton_density": 0.7037
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %И",
+            "visible_min": -40,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 300,
+            "step_interval": 20
+          }
+        },
+        "y_metrics_max": {
+          "red": 37,
+          "blue": 30,
+          "green": 28
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№98",
+        "full_text": "Иллюстрация №98. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Губашева С.С. в предоставленном на исследование Объекте №5 при третьем проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Губашева С.С.",
+          "investigation_object": "Объекте №5",
+          "condition": "при третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 848,
+    "total_tokens": 2903,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "page": 61,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков…\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец №3 к Заключению №11366; Индекс кристалличности = 0.79107; Протонная плотность = 4.30041\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец №3 к Заключению №11366\",\n        \"crystallinity_index\": 0.79107,\n        \"proton_density\": 4.30041\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность\",\n          \"visible_min\": null,\n          \"visible_max\": null,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": null,\n          \"visible_max\": null,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2025\",\n        \"Время релаксации короткой компоненты - 56.99845 мкс\",\n        \"Время релаксации длинной компоненты - 150.0468 мкс\",\n        \"Амплитуда короткой компоненты - 3.316548 а.е.\",\n        \"Амплитуда длинной компоненты - 0.296358 а.е.\",\n        \"Индекс кристалличности = 0.793558\",\n        \"Протонная плотность = 3.453166\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2025\",\n        \"relaxation_time_short_component_mks\": 56.99845,\n        \"relaxation_time_long_component_mks\": 150.0468,\n        \"amplitude_short_component_au\": 3.316548,\n        \"amplitude_long_component_au\": 0.296358,\n        \"calculated_crystallinity_index\": 0.793558,\n        \"calculated_proton_density\": 3.453166\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 7823 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№120\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи нераспознанного лица №3 в предоставленном на исследование Объекте №9 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"Объект\",\n        \"source_item\": \"Объект №9\",\n        \"investigation_object\": \"нераспознанного лица №3\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец №3 к Заключению №11366; Индекс кристалличности = 0.75008; Протонная плотность = 3.85316\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец №3 к Заключению №11366\",\n        \"crystallinity_index\": 0.75008,\n        \"proton_density\": 3.85316\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность\",\n          \"visible_min\": null,\n          \"visible_max\": null,\n          \"step_interval\": null\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": null,\n          \"visible_max\": null,\n          \"step_interval\": null\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": null,\n        \"blue\": null,\n        \"green\": null\n      },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2025\",\n        \"Время релаксации короткой компоненты - 67.19206 мкс\",\n        \"Время релаксации длинной компоненты - 167.9028 мкс\",\n        \"Амплитуда короткой компоненты - 2.872154 а.е.\",\n        \"Амплитуда длинной компоненты - 0.311685 а.е.\",\n        \"Индекс кристалличности = 0.751956\",\n        \"Протонная плотность = 3.551836\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2025\",\n        \"relaxation_time_short_component_mks\": 67.19206,\n        \"relaxation_time_long_component_mks\": 167.9028,\n        \"amplitude_short_component_au\": 2.872154,\n        \"amplitude_long_component_au\": 0.311685,\n        \"calculated_crystallinity_index\": 0.751956,\n        \"calculated_proton_density\": 3.551836\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"135.0 7823 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№121\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Володио И.А. в предоставленном на исследование Объекте №10 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"Объект\",\n        \"source_item\": \"Объект №10\",\n        \"investigation_object\": \"от имени Володио И.А.\",\n        \"condition\": \"при третьем проколе\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков…"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец №3 к Заключению №11366; Индекс кристалличности = 0.79107; Протонная плотность = 4.30041",
+        "structured_metrics": {
+          "sample_reference": "Образец №3 к Заключению №11366",
+          "crystallinity_index": 0.79107,
+          "proton_density": 4.30041
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "",
+        "raw_lines": [
+          "Дата исследования - 19.07.2025",
+          "Время релаксации короткой компоненты - 56.99845 мкс",
+          "Время релаксации длинной компоненты - 150.0468 мкс",
+          "Амплитуда короткой компоненты - 3.316548 а.е.",
+          "Амплитуда длинной компоненты - 0.296358 а.е.",
+          "Индекс кристалличности = 0.793558",
+          "Протонная плотность = 3.453166"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2025",
+          "relaxation_time_short_component_mks": 56.99845,
+          "relaxation_time_long_component_mks": 150.0468,
+          "amplitude_short_component_au": 3.316548,
+          "amplitude_long_component_au": 0.296358,
+          "calculated_crystallinity_index": 0.793558,
+          "calculated_proton_density": 3.453166
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 7823 2094"
+      },
+      "caption_data": {
+        "illustration_number": "№120",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи нераспознанного лица №3 в предоставленном на исследование Объекте №9 при третьем проколе.",
+        "structured_details": {
+          "object_type": "Объект",
+          "source_item": "Объект №9",
+          "investigation_object": "нераспознанного лица №3",
+          "condition": "при третьем проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец №3 к Заключению №11366; Индекс кристалличности = 0.75008; Протонная плотность = 3.85316",
+        "structured_metrics": {
+          "sample_reference": "Образец №3 к Заключению №11366",
+          "crystallinity_index": 0.75008,
+          "proton_density": 3.85316
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": null,
+            "visible_max": null,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "",
+        "raw_lines": [
+          "Дата исследования - 19.07.2025",
+          "Время релаксации короткой компоненты - 67.19206 мкс",
+          "Время релаксации длинной компоненты - 167.9028 мкс",
+          "Амплитуда короткой компоненты - 2.872154 а.е.",
+          "Амплитуда длинной компоненты - 0.311685 а.е.",
+          "Индекс кристалличности = 0.751956",
+          "Протонная плотность = 3.551836"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2025",
+          "relaxation_time_short_component_mks": 67.19206,
+          "relaxation_time_long_component_mks": 167.9028,
+          "amplitude_short_component_au": 2.872154,
+          "amplitude_long_component_au": 0.311685,
+          "calculated_crystallinity_index": 0.751956,
+          "calculated_proton_density": 3.551836
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "135.0 7823 2094"
+      },
+      "caption_data": {
+        "illustration_number": "№121",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Володио И.А. в предоставленном на исследование Объекте №10 при третьем проколе.",
+        "structured_details": {
+          "object_type": "Объект",
+          "source_item": "Объект №10",
+          "investigation_object": "от имени Володио И.А.",
+          "condition": "при третьем проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1429,
+    "total_tokens": 3454,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

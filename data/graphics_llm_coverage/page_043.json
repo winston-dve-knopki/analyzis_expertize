@@ -1,0 +1,167 @@
+{
+  "page": 43,
+  "content": "```json\n[\n  {\n    \"page_context\": {\n      \"title\": \"Приложение №6. Изображения графиков ЯМР участков исследуемых штрихов\"\n    },\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.77173; Протонная плотность = 2.37370\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3\",\n        \"crystallinity_index\": 0.77173,\n        \"proton_density\": 2.37370\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \" \", \"visible_min\": 0, \"visible_max\": 50, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"Время, мкс\", \"visible_min\": 0, \"visible_max\": 115, \"step_interval\": null }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"07:36:28\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.09.2023\",\n        \"Время релаксации короткой компоненты - 203.49815 мкс\",\n        \"Время релаксации длинной компоненты - 171.99131 мкс\",\n        \"Амплитуда короткой компоненты - 3.05772 a.u.\",\n        \"Амплитуда длинной компоненты - 5.59715 a.u.\",\n        \"Индекс кристалличности - 0.90749\",\n        \"Протонная плотность - 2.07377\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.09.2023\",\n        \"relaxation_time_short_component_mks\": 203.49815,\n        \"relaxation_time_long_component_mks\": 171.99131,\n        \"amplitude_short_component_au\": 3.05772,\n        \"amplitude_long_component_au\": 5.59715,\n        \"calculated_crystallinity_index\": 0.90749,\n        \"calculated_proton_density\": 2.07377\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"130.5 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"Иллюстрация №84\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов ... предоставленном на исследование Объекте №2 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрих\",\n        \"source_item\": \"Тисленко Т.Б.\",\n        \"investigation_object\": \"Объект №2\",\n        \"condition\": \"третий прокол\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.77725; Протонная плотность = 2.05900\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 3\",\n        \"crystallinity_index\": 0.77725,\n        \"proton_density\": 2.05900\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": { \"label\": \" \", \"visible_min\": 0, \"visible_max\": 50, \"step_interval\": null },\n        \"x_axis\": { \"label\": \"Время, мкс\", \"visible_min\": 0, \"visible_max\": 380, \"step_interval\": null }\n      },\n      \"y_metrics_max\": { \"red\": null, \"blue\": null, \"green\": null },\n      \"visible_tabs\": []\n    },\n    \"log_panel_data\": {\n      \"timestamp\": \"07:46:37\",\n      \"raw_lines\": [\n        \"Дата исследования - 19.07.2023\",\n        \"Время релаксации короткой компоненты - 177.70087 мкс\",\n        \"Время релаксации длинной компоненты - 357.93556 мкс\",\n        \"Амплитуда короткой компоненты - 5.02719 a.u.\",\n        \"Амплитуда длинной компоненты - 5.29125 a.u.\",\n        \"Индекс кристалличности - 0.99000\",\n        \"Протонная плотность - 2.05900 a.u.\"\n      ],\n      \"structured_log_metrics\": {\n        \"research_date\": \"19.07.2023\",\n        \"relaxation_time_short_component_mks\": 177.70087,\n        \"relaxation_time_long_component_mks\": 357.93556,\n        \"amplitude_short_component_au\": 5.02719,\n        \"amplitude_long_component_au\": 5.29125,\n        \"calculated_crystallinity_index\": 0.99000,\n        \"calculated_proton_density\": 2.05900\n      }\n    },\n    \"status_bar_data\": {\n      \"urtb\": \"3%\",\n      \"adc\": \"0%\",\n      \"base_offset\": \"100% 100%\",\n      \"operation\": \"Чтение буфера A\",\n      \"numeric_values\": \"130.5 0.7823 2032 2094\"\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"Иллюстрация №85\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов ... предоставленном на исследование Объекте №2 при третьем проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"штрих\",\n        \"source_item\": \"Филиппенко И.Н.\",\n        \"investigation_object\": \"Объект №2\",\n        \"condition\": \"третий прокол\"\n      }\n    }\n  }\n]\n```",
+  "graphs": [
+    {
+      "page_context": {
+        "title": "Приложение №6. Изображения графиков ЯМР участков исследуемых штрихов"
+      },
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.77173; Протонная плотность = 2.37370",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3",
+          "crystallinity_index": 0.77173,
+          "proton_density": 2.3737
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": " ",
+            "visible_min": 0,
+            "visible_max": 50,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 115,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "07:36:28",
+        "raw_lines": [
+          "Дата исследования - 19.09.2023",
+          "Время релаксации короткой компоненты - 203.49815 мкс",
+          "Время релаксации длинной компоненты - 171.99131 мкс",
+          "Амплитуда короткой компоненты - 3.05772 a.u.",
+          "Амплитуда длинной компоненты - 5.59715 a.u.",
+          "Индекс кристалличности - 0.90749",
+          "Протонная плотность - 2.07377"
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.09.2023",
+          "relaxation_time_short_component_mks": 203.49815,
+          "relaxation_time_long_component_mks": 171.99131,
+          "amplitude_short_component_au": 3.05772,
+          "amplitude_long_component_au": 5.59715,
+          "calculated_crystallinity_index": 0.90749,
+          "calculated_proton_density": 2.07377
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "130.5 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "Иллюстрация №84",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов ... предоставленном на исследование Объекте №2 при третьем проколе.",
+        "structured_details": {
+          "object_type": "штрих",
+          "source_item": "Тисленко Т.Б.",
+          "investigation_object": "Объект №2",
+          "condition": "третий прокол"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 3 к Заключению № 11366; Индекс кристалличности = 0.77725; Протонная плотность = 2.05900",
+        "structured_metrics": {
+          "sample_reference": "Образец № 3",
+          "crystallinity_index": 0.77725,
+          "proton_density": 2.059
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": " ",
+            "visible_min": 0,
+            "visible_max": 50,
+            "step_interval": null
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 380,
+            "step_interval": null
+          }
+        },
+        "y_metrics_max": {
+          "red": null,
+          "blue": null,
+          "green": null
+        },
+        "visible_tabs": []
+      },
+      "log_panel_data": {
+        "timestamp": "07:46:37",
+        "raw_lines": [
+          "Дата исследования - 19.07.2023",
+          "Время релаксации короткой компоненты - 177.70087 мкс",
+          "Время релаксации длинной компоненты - 357.93556 мкс",
+          "Амплитуда короткой компоненты - 5.02719 a.u.",
+          "Амплитуда длинной компоненты - 5.29125 a.u.",
+          "Индекс кристалличности - 0.99000",
+          "Протонная плотность - 2.05900 a.u."
+        ],
+        "structured_log_metrics": {
+          "research_date": "19.07.2023",
+          "relaxation_time_short_component_mks": 177.70087,
+          "relaxation_time_long_component_mks": 357.93556,
+          "amplitude_short_component_au": 5.02719,
+          "amplitude_long_component_au": 5.29125,
+          "calculated_crystallinity_index": 0.99,
+          "calculated_proton_density": 2.059
+        }
+      },
+      "status_bar_data": {
+        "urtb": "3%",
+        "adc": "0%",
+        "base_offset": "100% 100%",
+        "operation": "Чтение буфера A",
+        "numeric_values": "130.5 0.7823 2032 2094"
+      },
+      "caption_data": {
+        "illustration_number": "Иллюстрация №85",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов ... предоставленном на исследование Объекте №2 при третьем проколе.",
+        "structured_details": {
+          "object_type": "штрих",
+          "source_item": "Филиппенко И.Н.",
+          "investigation_object": "Объект №2",
+          "condition": "третий прокол"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 1397,
+    "total_tokens": 3422,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}
