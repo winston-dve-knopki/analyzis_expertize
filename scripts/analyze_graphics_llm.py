@@ -16,12 +16,9 @@ from typing import Any, List, Optional
 import warnings
 warnings.filterwarnings("ignore")
 import requests
-
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PAGES_DIR = PROJECT_ROOT / "data" / "graphics_pages"
-OUT_DIR = PROJECT_ROOT / "data" / "graphics_llm"
-API_URL = "https://api.eliza.yandex.net/openai/v1/chat/completions"
 os.environ["ELIZA_TOKEN"] = 'y1__xCO5uSRpdT-ARiuKyCNuNgCfT9dyn8T_pEyXKpRdI4xPCSSwIg'
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+API_URL = "https://api.eliza.yandex.net/openai/v1/chat/completions"
 # По умолчанию gpt-4o — лучше читает числа с осей графиков; gpt-4o-mini часто даёт null для visible_min/max
 MODEL = "gpt-4o"
 
@@ -83,8 +80,72 @@ PROMPT = """На изображении — страница с одним ил�
 - visible_tabs — массив строк с названиями вкладок интерфейса, если они видны; иначе [].
 - Ответ должен быть только валидным JSON-массивом, начинаться с [ и заканчиваться ]."""
 
+# Промпт для графиков С ПОКРЫТИЕМ: под каждым графиком есть панель лога и строка состояния — их тоже извлекаем.
+PROMPT_COVERAGE = """На изображении — страница с графиками ЯМР (ССИ) из приложения «с покрытием». Есть: общий заголовок страницы (приложение №…); для каждого графика — заголовок (образец, индекс кристалличности, протонная плотность), оси графика, под графиком — **панель лога** (дата исследования, времена релаксации короткой/длинной компоненты, амплитуды, индекс кристалличности, протонная плотность) и **строка состояния** (URTB, ADC, base offset, операция, числа).
 
-def call_vision_api(image_path: Path, token: str, model: str = MODEL) -> dict:
+Извлеки все данные и верни **строго один JSON-массив** без обёртки в markdown. Каждый элемент — один график (graph_id: 1, 2, …). Формат каждого элемента:
+
+{
+  "page_context": {
+    "title": "<полный заголовок страницы/приложения вверху, например «Приложение №6. Изображения графиков ЯМР участков…»>"
+  },
+  "graph_id": <номер графика на странице, 1 или 2>,
+  "header_data": {
+    "full_text": "<полный текст заголовка над графиком>",
+    "structured_metrics": {
+      "sample_reference": "<ссылка на образец>",
+      "crystallinity_index": <число>,
+      "proton_density": <число>
+    }
+  },
+  "graph_statistics": {
+    "axes": {
+      "y_axis": { "label": "<подпись>", "visible_min": <число или null>, "visible_max": <число или null>, "step_interval": <число или null> },
+      "x_axis": { "label": "<подпись>", "visible_min": <число или null>, "visible_max": <число или null>, "step_interval": <число или null> }
+    },
+    "y_metrics_max": { "red": <число или null>, "blue": <число или null>, "green": <число или null> },
+    "visible_tabs": ["<вкладка>", ...]
+  },
+  "log_panel_data": {
+    "timestamp": "<время в формате ЧЧ:ММ:СС из лога, если видно>",
+    "raw_lines": ["<строка 1 лога>", "<строка 2>", ...],
+    "structured_log_metrics": {
+      "research_date": "<дата в формате ДД.ММ.ГГГГ>",
+      "relaxation_time_short_component_mks": <число, мкс>,
+      "relaxation_time_long_component_mks": <число, мкс>,
+      "amplitude_short_component_au": <число, a.u.>,
+      "amplitude_long_component_au": <число, a.u.>,
+      "calculated_crystallinity_index": <число>,
+      "calculated_proton_density": <число>
+    }
+  },
+  "status_bar_data": {
+    "urtb": "<значение, например 3%>",
+    "adc": "<значение>",
+    "base_offset": "<значение, например 100% 100%>",
+    "operation": "<текст операции, например «Чтение буфера A»>",
+    "numeric_values": "<строка с числами через пробел>"
+  },
+  "caption_data": {
+    "illustration_number": "<номер иллюстрации>",
+    "full_text": "<полный текст подписи>",
+    "structured_details": {
+      "object_type": "<тип>",
+      "source_item": "<источник>",
+      "investigation_object": "<объект>",
+      "condition": "<условие>"
+    }
+  }
+}
+
+Правила:
+- page_context указывай один раз для страницы (в первом элементе массива); во втором графике можно опустить или продублировать.
+- log_panel_data и status_bar_data — данные **под графиком** (панель лога и строка состояния). Если блока нет — пустой объект или пустые строки/null.
+- Числа в structured_log_metrics — только числа (float), даты и время — строки.
+- Ответ — только JSON-массив, начинается с [ и заканчивается ]."""
+
+
+def call_vision_api(image_path: Path, token: str, model: str = MODEL, prompt: str = PROMPT) -> dict:
     """Отправить изображение и промпт в API, вернуть ответ API (dict)."""
     with open(image_path, "rb") as f:
         b64 = base64.b64encode(f.read()).decode("ascii")
@@ -96,7 +157,7 @@ def call_vision_api(image_path: Path, token: str, model: str = MODEL) -> dict:
             {
                 "role": "user",
                 "content": [
-                    {"type": "text", "text": PROMPT},
+                    {"type": "text", "text": prompt},
                     {
                         "type": "image_url",
                         "image_url": {"url": image_url},
@@ -136,7 +197,8 @@ def parse_response_json(text: str) -> Optional[List[Any]]:
 
 def main():
     parser = argparse.ArgumentParser(description="Анализ графиков ЯМР через LLM (vision)")
-    parser.add_argument("--pages", type=str, default=None, help="Номера страниц через запятую, например 1,2,5,10. По умолчанию — все 1..78")
+    parser.add_argument("--coverage", action="store_true", help="Режим «с покрытием»: исходник graphics_pages_coverage, выход graphics_llm_coverage, расширенный JSON (log_panel_data, status_bar_data, page_context)")
+    parser.add_argument("--pages", type=str, default=None, help="Номера страниц через запятую, например 1,2,5,10. По умолчанию — все страницы")
     parser.add_argument("--sample", type=int, default=None, help="Взять каждую N-ю страницу (например 10)")
     parser.add_argument("--delay", type=float, default=1.0, help="Пауза между запросами (сек)")
     parser.add_argument("--force", action="store_true", help="Перезаписать уже сохранённые страницы")
@@ -149,32 +211,43 @@ def main():
         print("Укажите ELIZA_TOKEN в окружении (как в api_example.py).", file=__import__("sys").stderr)
         return 1
 
-    if not PAGES_DIR.exists():
-        print(f"Сначала выполните: python scripts/extract_graphics_pages.py", file=__import__("sys").stderr)
+    if args.coverage:
+        pages_dir = PROJECT_ROOT / "data" / "graphics_pages_coverage"
+        out_dir = PROJECT_ROOT / "data" / "graphics_llm_coverage"
+        prompt = PROMPT_COVERAGE
+        max_page = 80  # coverage может иметь 79 страниц
+    else:
+        pages_dir = PROJECT_ROOT / "data" / "graphics_pages"
+        out_dir = PROJECT_ROOT / "data" / "graphics_llm"
+        prompt = PROMPT
+        max_page = 79
+
+    if not pages_dir.exists():
+        print(f"Каталог не найден: {pages_dir}. Сначала выполните extract_graphics_pages.py или extract_graphics_pages_coverage.py", file=__import__("sys").stderr)
         return 1
 
     # Список страниц для обработки
     if args.pages:
         page_numbers = [int(x.strip()) for x in args.pages.split(",")]
     elif args.sample:
-        page_numbers = list(range(1, 79))[:: args.sample]
+        page_numbers = list(range(1, max_page))[:: args.sample]
     else:
-        page_numbers = list(range(1, 79))
+        page_numbers = list(range(1, max_page))
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     for page in page_numbers:
-        out_file = OUT_DIR / f"page_{page:03d}.json"
+        out_file = out_dir / f"page_{page:03d}.json"
         if out_file.exists() and not args.force:
             print(f"Пропуск страницы {page} (уже есть {out_file.name}).")
             continue
-        path = PAGES_DIR / f"page_{page:03d}.png"
+        path = pages_dir / f"page_{page:03d}.png"
         if not path.exists():
             print(f"Файл не найден: {path}")
             continue
         print(f"Страница {page}...", end=" ", flush=True)
         try:
-            data = call_vision_api(path, token, model)
+            data = call_vision_api(path, token, model, prompt)
             completion = data.get("response", data)
             text = completion["choices"][0]["message"]["content"]
             graphs = parse_response_json(text)
@@ -195,7 +268,7 @@ def main():
                 json.dump(payload, f, ensure_ascii=False, indent=2)
         time.sleep(args.delay)
 
-    print(f"Результаты по страницам: {OUT_DIR}")
+    print(f"Результаты по страницам: {out_dir}")
     return 0
 
 
