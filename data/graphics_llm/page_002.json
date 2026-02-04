@@ -1,0 +1,114 @@
+{
+  "page": 2,
+  "content": "[\n  {\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.82006; Протонная плотность = 0.47105\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 1 к Заключению № 11366\",\n        \"crystallinity_index\": 0.82006,\n        \"proton_density\": 0.47105\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -2,\n          \"visible_max\": 14,\n          \"step_interval\": 2\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 400,\n          \"step_interval\": 25\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 14,\n        \"blue\": 12,\n        \"green\": null\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№3\",\n      \"full_text\": \"Иллюстрация №3. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филипенко И.Н. в предоставленном на исследование Объекте №1 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"рукописной подписи от имени Филипенко И.Н.\",\n        \"investigation_object\": \"Объект №1\",\n        \"condition\": \"при первом проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.78412; Протонная плотность = 0.03323\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 1 к Заключению № 11366\",\n        \"crystallinity_index\": 0.78412,\n        \"proton_density\": 0.03323\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -60,\n          \"visible_max\": 40,\n          \"step_interval\": 20\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 165,\n          \"step_interval\": 15\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": -10,\n        \"blue\": 0,\n        \"green\": 40\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№4\",\n      \"full_text\": \"Иллюстрация №4. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Шмульт Т.А. в предоставленном на исследование Объекте №1 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"рукописной подписи от имени Шмульт Т.А.\",\n        \"investigation_object\": \"Объект №1\",\n        \"condition\": \"при первом проколе\"\n      }\n    }\n  }\n]",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.82006; Протонная плотность = 0.47105",
+        "structured_metrics": {
+          "sample_reference": "Образец № 1 к Заключению № 11366",
+          "crystallinity_index": 0.82006,
+          "proton_density": 0.47105
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -2,
+            "visible_max": 14,
+            "step_interval": 2
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 400,
+            "step_interval": 25
+          }
+        },
+        "y_metrics_max": {
+          "red": 14,
+          "blue": 12,
+          "green": null
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№3",
+        "full_text": "Иллюстрация №3. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Филипенко И.Н. в предоставленном на исследование Объекте №1 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Филипенко И.Н.",
+          "investigation_object": "Объект №1",
+          "condition": "при первом проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.78412; Протонная плотность = 0.03323",
+        "structured_metrics": {
+          "sample_reference": "Образец № 1 к Заключению № 11366",
+          "crystallinity_index": 0.78412,
+          "proton_density": 0.03323
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -60,
+            "visible_max": 40,
+            "step_interval": 20
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 165,
+            "step_interval": 15
+          }
+        },
+        "y_metrics_max": {
+          "red": -10,
+          "blue": 0,
+          "green": 40
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№4",
+        "full_text": "Иллюстрация №4. Изображение одного из ЯМР участков исследуемых штрихов рукописной подписи от имени Шмульт Т.А. в предоставленном на исследование Объекте №1 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "рукописной подписи от имени Шмульт Т.А.",
+          "investigation_object": "Объект №1",
+          "condition": "при первом проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 829,
+    "total_tokens": 2884,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

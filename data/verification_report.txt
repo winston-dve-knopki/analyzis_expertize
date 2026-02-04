@@ -1,0 +1,8 @@
+=== Verification report: calculations.pdf ===
+
+Total blocks parsed: 78
+Blocks with full match (G1, G2, G, D): 78
+Blocks with at least one mismatch: 0
+
+
+Methodology check: G = K2/K1 + P2/P1 (first), G2 = L2/L1 + R2/R1 (second), G = G2-G1, D = G1/G (Δt=1 month).

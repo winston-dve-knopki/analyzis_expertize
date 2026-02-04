@@ -1,0 +1,116 @@
+{
+  "page": 34,
+  "content": "[\n  {\n    \"graph_id\": 1,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.80599; Протонная плотность = 0.41564\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 1 к Заключению № 11366\",\n        \"crystallinity_index\": 0.80599,\n        \"proton_density\": 0.41564\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -10,\n          \"visible_max\": 40,\n          \"step_interval\": 10\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 300,\n          \"step_interval\": 50\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 30,\n        \"blue\": 35,\n        \"green\": 20\n      },\n      \"visible_tabs\": [\"NMR signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№67\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №7 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»\",\n        \"investigation_object\": \"Объект №7\",\n        \"condition\": \"при первом проколе\"\n      }\n    }\n  },\n  {\n    \"graph_id\": 2,\n    \"header_data\": {\n      \"full_text\": \"Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.81194; Протонная плотность = 0.36265\",\n      \"structured_metrics\": {\n        \"sample_reference\": \"Образец № 1 к Заключению № 11366\",\n        \"crystallinity_index\": 0.81194,\n        \"proton_density\": 0.36265\n      }\n    },\n    \"graph_statistics\": {\n      \"axes\": {\n        \"y_axis\": {\n          \"label\": \"Интенсивность, %\",\n          \"visible_min\": -50,\n          \"visible_max\": 30,\n          \"step_interval\": 10\n        },\n        \"x_axis\": {\n          \"label\": \"Время, мкс\",\n          \"visible_min\": 0,\n          \"visible_max\": 300,\n          \"step_interval\": 50\n        }\n      },\n      \"y_metrics_max\": {\n        \"red\": 25,\n        \"blue\": 20,\n        \"green\": 15\n      },\n      \"visible_tabs\": [\"NMR Signal\", \"Results Graph\", \"Code\"]\n    },\n    \"caption_data\": {\n      \"illustration_number\": \"№68\",\n      \"full_text\": \"Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №7 при первом проколе.\",\n      \"structured_details\": {\n        \"object_type\": \"ЯМР участок исследуемых штрихов\",\n        \"source_item\": \"оттиск круглой мастичной печати ООО «Ростовская нива»\",\n        \"investigation_object\": \"Объект №7\",\n        \"condition\": \"при первом проколе\"\n      }\n    }\n  }\n]",
+  "graphs": [
+    {
+      "graph_id": 1,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.80599; Протонная плотность = 0.41564",
+        "structured_metrics": {
+          "sample_reference": "Образец № 1 к Заключению № 11366",
+          "crystallinity_index": 0.80599,
+          "proton_density": 0.41564
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -10,
+            "visible_max": 40,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 300,
+            "step_interval": 50
+          }
+        },
+        "y_metrics_max": {
+          "red": 30,
+          "blue": 35,
+          "green": 20
+        },
+        "visible_tabs": [
+          "NMR signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№67",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ПАО «Московский Индустриальный банк» в предоставленном на исследование Объекте №7 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ПАО «Московский Индустриальный банк»",
+          "investigation_object": "Объект №7",
+          "condition": "при первом проколе"
+        }
+      }
+    },
+    {
+      "graph_id": 2,
+      "header_data": {
+        "full_text": "Образец № 1 к Заключению № 11366; Индекс кристалличности = 0.81194; Протонная плотность = 0.36265",
+        "structured_metrics": {
+          "sample_reference": "Образец № 1 к Заключению № 11366",
+          "crystallinity_index": 0.81194,
+          "proton_density": 0.36265
+        }
+      },
+      "graph_statistics": {
+        "axes": {
+          "y_axis": {
+            "label": "Интенсивность, %",
+            "visible_min": -50,
+            "visible_max": 30,
+            "step_interval": 10
+          },
+          "x_axis": {
+            "label": "Время, мкс",
+            "visible_min": 0,
+            "visible_max": 300,
+            "step_interval": 50
+          }
+        },
+        "y_metrics_max": {
+          "red": 25,
+          "blue": 20,
+          "green": 15
+        },
+        "visible_tabs": [
+          "NMR Signal",
+          "Results Graph",
+          "Code"
+        ]
+      },
+      "caption_data": {
+        "illustration_number": "№68",
+        "full_text": "Изображение одного из ЯМР участков исследуемых штрихов оттиска круглой мастичной печати ООО «Ростовская нива» в предоставленном на исследование Объекте №7 при первом проколе.",
+        "structured_details": {
+          "object_type": "ЯМР участок исследуемых штрихов",
+          "source_item": "оттиск круглой мастичной печати ООО «Ростовская нива»",
+          "investigation_object": "Объект №7",
+          "condition": "при первом проколе"
+        }
+      }
+    }
+  ],
+  "model": "gpt-4o-2024-08-06",
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 840,
+    "total_tokens": 2895,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}
